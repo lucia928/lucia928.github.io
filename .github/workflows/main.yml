@@ -3,7 +3,7 @@ name: Github Page # 名字随意
 on:
   push:
     branches:
-      - gh-pages  # 私有仓库的默认分支名字 
+      - main  # 私有仓库的默认分支名字 
 
 jobs:
   pages:
@@ -31,5 +31,5 @@ jobs:
           personal_token: $
           # 下面内容按需修改 
           external_repository: lucia928/lucia928.github.io # 目标仓库 (存放静态页面)
-          publish_branch: master # 目标仓库的默认分支名字 
+          publish_branch: gh-pages # 目标仓库的默认分支名字 
           publish_dir: ./public
