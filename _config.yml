@@ -101,5 +101,8 @@ theme: matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+## 部署插件配置
 deploy:
-  type: ''
+  type: git
+  repository: https://github.com/lucia928/lucia928.github.io.git
+  branch: gh-pages
